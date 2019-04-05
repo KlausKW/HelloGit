@@ -14,3 +14,13 @@ git commit -m "first commit"
 
 ログ表示
 git log
+
+GitからGithubにアップロード
+Push
+
+git push プッシュ先　ローカルのブランチ名：リモートのブランチ名
+git push -u プッシュ先
+
+git remote add origin https://github.com/KlausKW/HelloGit.git
+
+git push -u origin master
