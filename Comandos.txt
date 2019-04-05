@@ -1,8 +1,16 @@
 リポジトリの状態を表示
 git status
 
-ファイルをコミット
-git -m "first commit"
+変更があったファイルをステージに上げるコマンド
+git add　(ファイル名．txt)
+
+全部上げる
+git add .
+
+スナップショットを撮るコマンド
+git commit
+コミットする時は必ずコメントを入れる必要がある
+git commit -m "first commit"
 
 ログ表示
-git 
+git log
