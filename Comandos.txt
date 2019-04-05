@@ -1,5 +1,8 @@
 リポジトリの状態を表示
 git status
 
+ファイルをコミット
+git -m "first commit"
+
 ログ表示
 git 
